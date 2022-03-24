@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  gap: 16px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
