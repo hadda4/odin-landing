@@ -6,6 +6,7 @@ body {
 }
 
 nav,
+header,
 footer {
   background-color: #1f2937;
 }
@@ -32,6 +33,42 @@ nav ul {
   margin-left: 16px;
 }
 /* Style - HEADER */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 16px;
+  margin-bottom: 32px;
+}
+
+.header-cont-left {
+  padding: 16px;
+}
+
+.header-cont-right {
+  height: 200px;
+  width: 400px;
+  padding: 16px;
+   text-align: center;
+   display: flex;
+  background-color: gray;
+  }
+
+h1{
+  font-size: 48px;
+  font-weight: 700px;
+  color: #f9faf8;
+}
+header p{
+  font-size: 18px;
+  color: #e5e7eb;
+  align-self: center;
+
+
+}
+header .btn-signup{
+  border:  none;
+}
 
 /* Style - MAIN */
 
@@ -42,7 +79,7 @@ main {
 /* Section - Articles */
 .rand-info {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 36px;
   margin-bottom: 48px;
@@ -50,12 +87,11 @@ main {
 .info h2 {
   text-align: center;
 }
-.info h5{
+.info h5 {
   text-align: center;
   font-weight: 500;
   margin-bottom: 0;
 }
-
 
 .art-info {
   display: flex;
@@ -67,7 +103,7 @@ main {
   height: 120px;
   width: 120px;
 }
-.art-subtext{
+.art-subtext {
   word-wrap: break-word;
   width: 120px;
   margin-top: 10px;
