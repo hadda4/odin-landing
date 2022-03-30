@@ -17,6 +17,11 @@ header {
 }
 
 /* Style - Navigation */
+nav {
+  position: sticky;
+  top:0;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
